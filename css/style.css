@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ! Provvisori da eliminare__________________________________________________________________________________________*/
+body{
+  background-color: rgb(25, 23, 23);
+  border: white 1px dashed;
+}
+
+.debug{
+  border: rgb(179, 255, 0) 1px dashed;
+}
+
+.debug_1{
+  background-color: rgb(255, 174, 0);
+  border: rgb(179, 255, 0) 1px dashed;
+}
+
+/* * General //////////////////////////////////////////////////////////////////////////////////  */
+
+.container-body{
+  width: 100%;
+}
+
+.desktop {
+  display: none;
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  display: block;
+  list-style: none;
+  padding: 0 33px;
+}
+
+
+
+
+
+
+
+
+
+/* * UTILITIES //////////////////////////////////////////////////////////////////////////////////  */
+.d-flex{
+  display: flex;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.align-center{
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* * HEADER ////////////////////////////////////////////////////////////////////////////////// */
+header{
+  color: white;
+}
+
+.menu .row{
+  background-color: #0084FD;
+  height: 75px;
+}
+
+.menu .row .col > *{
+  padding: 25px; /*! provvisorio */
+  height: 72px; /*! provvisorio */
+
+}
+
+
+
+
+
+
+/* * MAIN ////////////////////////////////////////////////////////////////////////////////// */
+main{
+
+}
+
+
+
+
+/* * FOOTER ////////////////////////////////////////////////////////////////////////////////// */
+footer{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* * RESPONSIVE ////////////////////////////////////////////////////////////////////////////////// */
+
+/* * mobile width:375px;  */
+/* * tablet width:768px;  */
+/* * desktop width:1440px;  */
+
+
+@media screen and (min-width:769px) {
+
+  .container-body{
+    width: 100%;
+    max-width: 1000px;
+    /* max-width: 1140px; */
+  }
+
+  .menu{
+    width: 100%;
+  }
+
+  .menu .row .col {
+
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .desktop{
+    display: block;
+  }
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
