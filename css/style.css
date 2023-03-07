@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ! Provvisori da eliminare__________________________________________________________________________________________*/
@@ -29,6 +30,10 @@ body{
   display: none;
 }
 
+.desktop-flex{
+  display: none;
+}
+
 ul{
   display: flex;
 }
@@ -39,6 +44,9 @@ li{
   padding: 0 33px;
 }
 
+h3{
+  color: #0084FD;
+}
 
 
 
@@ -64,7 +72,13 @@ li{
   align-items: center;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
 
+.align-self-flex-end{
+  align-self: flex-end;
+}
 
 
 
@@ -98,6 +112,91 @@ main{
 
 }
 
+/* * section jumbotron_________________________________________________________________________________________*/
+.jumbotron{
+  width: 100%;
+}
+
+.first-col-jumbo, 
+.second-col-jumbo, 
+.third-col-jumbo, 
+.fourth-col-jumbo, 
+.fifth-col-jumbo{
+  width: 95%;
+  padding: 5%;
+
+
+}
+
+.first-col-jumbo{
+  /* width: 95%; */
+  padding-bottom: 0px;
+  
+}
+
+/* .second-col-jumbo .col .fa-solid, 
+.third-col-jumbo .col .fa-solid, 
+.fourth-col-jumbo .col .fa-solid, 
+.fifth-col-jumbo .col .fa-solid{ */
+.second-col-jumbo .fa-solid, 
+.third-col-jumbo .fa-solid, 
+.fourth-col-jumbo .fa-solid, 
+.fifth-col-jumbo .fa-solid{
+  font-size: 83px;
+  color:#0084FD;
+
+}
+
+.first-col-jumbo img{
+  width: 70%;
+  height: 270px;
+}
+
+.second-col-jumbo{
+  /* width: 95%; */
+}
+
+.third-col-jumbo{
+
+}
+
+.fourth-col-jumb{
+
+}
+
+.fifth-col-jumbo{
+
+}
+
+/* * section strategic-plan_________________________________________________________________________________________*/
+.strategic-plan{
+
+}
+
+/* * section testimonials_________________________________________________________________________________________*/
+.testimonials{
+
+}
+/* * section work-with-us_________________________________________________________________________________________*/
+.work-with-us{
+
+}
+
+/* * section about-us_________________________________________________________________________________________*/
+.about-us{
+
+}
+
+/* * section get-started_________________________________________________________________________________________*/
+.get-started{
+
+}
+
+
+
+
+
+
 
 
 
@@ -124,6 +223,7 @@ footer{
 /* * desktop width:1440px;  */
 
 
+/* ! desktop width:1440px; ////////////////////////////////////////////////////////////////////////////  */
 @media screen and (min-width:769px) {
 
   .container-body{
@@ -148,11 +248,129 @@ footer{
     display: block;
   }
 
+  .desktop-flex{
+    display: flex;
+  }
+
+  /* * Main */
+  /* * MAIN ////////////////////////////////////////////////////////////////////////////////// */
+  main{
+
+  }
+
+  /* * section jumbotron_________________________________________________________________________________________*/
+  .jumbotron{
+    width: 100%;
+  }
+
+  .first-col-jumbo, .second-col-jumbo, .third-col-jumbo, .fourth-col-jumbo, .fifth-col-jumbo {
+    /* margin: 5% 0; */
+    margin-top: 5%;
+    padding: 0;
+    background-color: #B5DDFF;
+    border-radius: 30px;
+  }
+
+  .first-col-jumbo{
+    /* width: 55%; */
+    width: 66%;
+    padding-top: 0;
+    /* padding-top: 0px;
+    padding-bottom: 50px; */
+
+    /* height: 283px; */
+    /* ! padding-top: 64px; */
+
+    /* padding-top: 0px; */
+
+    /* padding-top: 64px; */
+  }
+
+  .first-col-jumbo img{
+  width: 70%;
+  height: 283px;
+  padding-top: 64px;
+  }
+  
+  .text_jumbo{
+    width: 55%;
+
+    /* padding-bottom: 137px; */
+    /* padding-bottom: 118px; */
+    padding-bottom: 133px;
+  }
+
+  .phone_img{
+    width: 35%;
+  }
+
+  .second-col-jumbo{
+    width: 32%;
+
+    /* padding: 28px 0; */
+    padding: 35px 0;
+  }
+  
+  .second-row-jumbotron > *{
+    width: 32%;
+    padding: 35px 0;
+  }
+
+  .third-col-jumbo{
+  
+  }
+  
+  .fourth-col-jumb{
+  
+  }
+  
+  .fifth-col-jumbo{
+  
+  }
+  
+  /* * section strategic-plan_________________________________________________________________________________________*/
+  .strategic-plan{
+  
+  }
+  
+  /* * section testimonials_________________________________________________________________________________________*/
+  .testimonials{
+  
+  }
+  /* * section work-with-us_________________________________________________________________________________________*/
+  .work-with-us{
+  
+  }
+  
+  /* * section about-us_________________________________________________________________________________________*/
+  .about-us{
+  
+  }
+  
+  /* * section get-started_________________________________________________________________________________________*/
+  .get-started{
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* * FOOTER ////////////////////////////////////////////////////////////////////////////////// */
+  footer{
+  
+  }
 
 
 
   
 }
+
+
 
 
 
