@@ -20,6 +20,8 @@ body{
   border: rgb(179, 255, 0) 1px dashed;
 }
 
+
+
 /* * General //////////////////////////////////////////////////////////////////////////////////  */
 
 .container-body{
@@ -47,6 +49,39 @@ li{
 h3{
   color: #0084FD;
 }
+
+/* ! data 13/03/2023 preso spunto dalla spiegazione del prof*/
+section{
+  margin-bottom: 30px;
+}
+
+.container{
+  width: 100%;
+  /* max-width: 640px; */
+  margin: 0 auto;
+}
+
+.row-standard{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-standard{
+  width: 100%;
+  padding: 15px;
+
+  /* debug */
+  min-height: 300px;
+}
+
+.round-image{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+}
+
 
 
 
@@ -222,8 +257,7 @@ footer{
 /* * tablet width:768px;  */
 /* * desktop width:1440px;  */
 
-
-/* ! desktop width:1440px; ////////////////////////////////////////////////////////////////////////////  */
+/* ! tablet width:768px; ////////////////////////////////////////////////////////////////////////////  */
 @media screen and (min-width:769px) {
 
   .container-body{
@@ -288,7 +322,162 @@ footer{
 
   .first-col-jumbo img{
   width: 70%;
+  /* height: 283px; */
+  height: 320px;
+  padding-top: 64px;
+  }
+  
+  .text_jumbo{
+    width: 55%;
+
+    /* padding-bottom: 137px; */
+    /* padding-bottom: 118px; */
+    padding-bottom: 133px;
+  }
+
+  .phone_img{
+    width: 35%;
+  }
+
+  .second-col-jumbo{
+    width: 32%;
+
+    /* padding: 28px 0; */
+    padding: 35px 0;
+  }
+  
+  .second-row-jumbotron > *{
+    width: 32%;
+    padding: 35px 0;
+  }
+
+  .third-col-jumbo{
+  
+  }
+  
+  .fourth-col-jumb{
+  
+  }
+  
+  .fifth-col-jumbo{
+  
+  }
+  
+  /* * section strategic-plan_________________________________________________________________________________________*/
+  .strategic-plan{
+    
+  
+  }
+  
+  .strategic-plan .col-standard{
+    width: 50%;
+  }
+
+
+  /* * section testimonials_________________________________________________________________________________________*/
+  .testimonials{
+  
+  }
+  /* * section work-with-us_________________________________________________________________________________________*/
+  .work-with-us{
+  
+  }
+  
+  /* * section about-us_________________________________________________________________________________________*/
+  .about-us{
+  
+  }
+  
+  /* * section get-started_________________________________________________________________________________________*/
+  .get-started{
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* * FOOTER ////////////////////////////////////////////////////////////////////////////////// */
+  footer{
+  
+  }
+
+
+
+  
+}
+
+/* ! desktop width:1440px; ////////////////////////////////////////////////////////////////////////////  */
+@media screen and (min-width:1400px) {
+
+  .container-body{
+    width: 100%;
+    max-width: 1000px;
+    /* max-width: 1140px; */
+  }
+
+  .menu{
+    width: 100%;
+  }
+
+  .menu .row .col {
+
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .desktop{
+    display: block;
+  }
+
+  .desktop-flex{
+    display: flex;
+  }
+
+  /* * Main */
+  /* * MAIN ////////////////////////////////////////////////////////////////////////////////// */
+  main{
+
+  }
+
+  /* * section jumbotron_________________________________________________________________________________________*/
+  .jumbotron{
+    width: 100%;
+  }
+
+  .first-col-jumbo, .second-col-jumbo, .third-col-jumbo, .fourth-col-jumbo, .fifth-col-jumbo {
+    /* margin: 5% 0; */
+    margin-top: 5%;
+    padding: 0;
+    background-color: #B5DDFF;
+    border-radius: 30px;
+  }
+
+  .first-col-jumbo{
+    /* width: 55%; */
+    width: 66%;
+    padding-top: 0;
+    /* padding-top: 0px;
+    padding-bottom: 50px; */
+
+    /* height: 283px; */
+    /* ! padding-top: 64px; */
+
+    /* padding-top: 0px; */
+
+    /* padding-top: 64px; */
+  }
+
+  .first-col-jumbo img{
+  width: 70%;
   height: 283px;
+  /* height: 320px; */
   padding-top: 64px;
   }
   
