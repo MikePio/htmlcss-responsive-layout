@@ -55,7 +55,7 @@ section{
   margin-bottom: 30px;
 }
 
-.container{
+.container-standard{
   width: 100%;
   /* max-width: 640px; */
   margin: 0 auto;
@@ -78,7 +78,7 @@ section{
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: black;
+  background-color: rgb(123, 255, 0);
   display: inline-block;
 }
 
@@ -212,6 +212,19 @@ main{
 .testimonials{
 
 }
+
+.testimonials .col-standard:first-child{
+  width: calc(100% / 3);
+}
+
+.testimonials .col-standard{
+  width: calc(100% / 1.5);
+}
+
+.testimonial-card{
+  text-align: center;
+}
+
 /* * section work-with-us_________________________________________________________________________________________*/
 .work-with-us{
 
